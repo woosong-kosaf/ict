@@ -1,0 +1,107 @@
+﻿
+        
+.nexainput.nexaleftalign
+{
+  text-align:left;
+}
+.nexainput.nexarightalign
+{
+  text-align:right;
+}
+.nexainput.nexacenteralign
+{
+  text-align:center;
+}
+
+.nexacontentsbox.nexaleftalign
+{
+  text-align:left;
+}
+.nexacontentsbox.nexarightalign
+{
+  text-align:right;
+}
+.nexacontentsbox.nexacenteralign
+{
+  text-align:center;
+}
+.celltreeline
+{
+  border : 1px dotted #999999;
+}
+.Edit, .MaskEdit, .TextArea, .EditControl, .MaskEditControl, .TextAreaControl
+{
+  cursor:text;
+}
+.Button .nexacontentsbox, .ButtonControl .nexacontentsbox
+{
+  text-align:center;
+}
+
+.FileDownload  .nexacontentsbox, .FileDownloadControl .nexacontentsbox
+{
+  text-align:center;
+}
+
+.IconTextControl .nexacontentsbox, .IconControl .nexacontentsbox
+{
+  text-align:center;
+}
+
+.DatePickerDayItemControl .nexacontentsbox, .DatePickerWeekItemControl .nexacontentsbox, .TitleBarButtonControl .nexacontentsbox
+{
+  text-align:center;
+}
+
+.MainFrame, .VScrollBarControl, .HScrollBarControl
+{
+  cursor:default;
+}
+
+.Sketch .nexacontentsbox
+{
+   text-align:center;
+}
+
+.nexainput
+{
+  cursor:inherit;
+}
+
+.Button.btn_WF_ani
+{
+	background : #4169E1;
+	color : #ffffff;
+	cursor : pointer;
+	border-radius : 4px;
+	font : bold 12px "NanumGothic";
+	border : 1px solid #4169E1;
+}
+.Button.btn_WF_ani[status=focused]
+{
+	background : #4169E1;
+	color : #ffffff;
+	cursor : pointer;
+	border-radius : 4px;
+	font : bold 12px "NanumGothic";
+	border : 1px solid #4169E1;
+}
+.Button.btn_WF_ani[status=mouseover]
+{
+	background : #214cce;
+	border : 1px solid #214cce;
+}
+.Button.btn_WF_ani[userstatus=selected]
+{
+	background : #4169E1;
+	color : #ffffff;
+	cursor : pointer;
+	border-radius : 4px;
+	font : bold 12px "NanumGothic";
+	border : 1px solid #4169E1;
+}
+.Button.btn_WF_ani[userstatus=pushed]
+{
+	background : #214cce;
+	border : 1px solid #214cce;
+}
